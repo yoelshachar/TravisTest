@@ -7,7 +7,10 @@ install:
   - npm install -g npm@latest
 before_script:
   - npm install -g gulp
-  - npm install karma
   - npm install gulp
+  - npm install karma  
+  - npm install gulp-karma 
   - npm install karma-jasmine
+  - npm install jasmine-core
+  - npm install karma-chrome-launcher
 script: gulp test
