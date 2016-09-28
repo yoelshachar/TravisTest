@@ -9,4 +9,5 @@ before_script:
   - npm install -g gulp
   - npm install karma
   - npm install gulp
+  - npm install karma-jasmine
 script: gulp test
