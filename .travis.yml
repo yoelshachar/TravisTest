@@ -8,4 +8,5 @@ install:
 before_script:
   - npm install -g gulp
   - npm install karma
+  - npm install gulp
 script: gulp test
