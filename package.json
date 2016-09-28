@@ -1,0 +1,27 @@
+{
+  "name": "travistest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoelshachar/TravisTest.git"
+  },
+  "author": "Yoel Shachar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoelshachar/TravisTest/issues"
+  },
+  "homepage": "https://github.com/yoelshachar/TravisTest#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-karma": "0.0.5",
+    "jasmine-core": "^2.5.2",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2"
+  }
+}
